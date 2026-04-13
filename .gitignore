@@ -1,0 +1,48 @@
+# Output and logs
+out/
+*.log
+
+# HuggingFace token
+token
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data caches (HuggingFace datasets)
+data/cache/
+~/.cache/huggingface/
+
+# Model weights (large files — use model_dir or HF Hub)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+.claude/
